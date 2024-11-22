@@ -1,0 +1,78 @@
+.box1{display: grid; height: 400px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: "v1 v1 v1 v2 v2 v2"
+                         "v1 v1 v1 v3 v4 v4"
+                         "v6 v6 v6 v3 v5 v5"
+                         "v7 v7 v7 v7 v8 v8"
+                         "v9 v10 v11 v11 v14 v15"
+                         "v12 v12 v13 v13 v13 v13";
+    border: 10px solid black;
+    height: 600px;}
+
+.s1{border: 2px solid black; grid-area: v1; background-color: blue; display: flex; justify-content: center;}
+
+.s2{border: 2px solid black; grid-area: v2;  background-color: plum; display: flex; justify-content: center;}
+
+
+.s3{border: 2px solid black; grid-area: v3;  background-color: yellow; display: flex; justify-content: center;}
+
+.s4{border: 2px solid black; grid-area: v4;  background-color: deeppink; display: flex; justify-content: center;}
+
+
+.s5{border: 2px solid black; grid-area: v5;  background-color: green; display: flex; justify-content: center;}
+.s6{border: 2px solid black; grid-area: v6;  background-color: aquamarine ; display: flex; justify-content: center;}
+.s7{border: 2px solid black; grid-area: v7;  background-color: green; display: flex; justify-content: center;}
+
+.s8{border: 2px solid black; grid-area: v8;  background-color: aquamarine; display: flex; justify-content: center;}
+.s9{border: 2px solid black; grid-area: v9;  background-color: orange; display: flex; justify-content: center;}
+.s10{border: 2px solid black; grid-area: v10;  background-color: blue; display: flex; justify-content: center;}
+.s11{border: 2px solid black; grid-area: v11;  background-color: yellow; display: flex; justify-content: center;}
+
+.s12{border: 2px solid black; grid-area: v12;  background-color: plum; display: flex; justify-content: center;}
+.s13{border: 2px solid black; grid-area: v13;  background-color: orange; display: flex; justify-content: center;}
+
+.s14{border: 2px solid black; grid-area: v14;  background-color: plum; display: flex; justify-content: center;}
+.s15{border: 2px solid black; grid-area: v15;  background-color: pink; display: flex; justify-content: center;}
+.text1{font-size: 150%;}
+
+@media(max-width: 500px){
+    .box1{display: grid; height: 400px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(7, 100px);
+        grid-template-areas: "v1 v1 v2 v3 v3"
+                             "v1 v1 v4 v4 v4"
+                             "v5 v5 v5 v5 v5"
+                             "v6 v6 v7 v7 v7"
+                             "v8 v9 v10 v11 v11"
+                             "v12 v12 v13 v13 v13"
+                             "v14 v14 v14 v15 v15";
+        border: 10px solid black;
+        height: 700px; }
+    
+    .s1{border: 2px solid black; grid-area: v1; background-color: blue; display: flex; justify-content: center;}
+    
+    .s2{border: 2px solid black; grid-area: v2;  background-color: yellow; display: flex; justify-content: center;}
+    
+    
+    .s3{border: 2px solid black; grid-area: v3;  background-color: pink; display: flex; justify-content: center;}
+    
+    .s4{border: 2px solid black; grid-area: v4;  background-color: green; display: flex; justify-content: center;}
+    
+    
+    .s5{border: 2px solid black; grid-area: v5;  background-color: plum; display: flex; justify-content: center;}
+    .s6{border: 2px solid black; grid-area: v6;  background-color:  aqua; display: flex; justify-content: center;}
+    .s7{border: 2px solid black; grid-area: v7;  background-color: aqua; display: flex; justify-content: center;}
+    
+    .s8{border: 2px solid black; grid-area: v8;  background-color: yellow; display: flex; justify-content: center;}
+    .s9{border: 2px solid black; grid-area: v9;  background-color: green; display: flex; justify-content: center;}
+    .s10{border: 2px solid black; grid-area: v10;  background-color: orange; display: flex; justify-content: center;}
+    .s11{border: 2px solid black; grid-area: v11;  background-color: blue; display: flex; justify-content: center;}
+    
+    .s12{border: 2px solid black; grid-area: v12;  background-color: plum; display: flex; justify-content: center;}
+    .s13{border: 2px solid black; grid-area: v13;  background-color: pink; display: flex; justify-content: center;}
+    
+    .s14{border: 2px solid black; grid-area: v14;  background-color: plum; display: flex; justify-content: center;}
+    .s15{border: 2px solid black; grid-area: v15;  background-color: orange; display: flex; justify-content: center;}  
+    .text1{font-size: 130%;} 
+}
